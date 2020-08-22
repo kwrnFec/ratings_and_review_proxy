@@ -1,0 +1,19 @@
+{
+  "name": "fecproxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server/server.js",
+    "webpack": "webpack -d --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "http-proxy-middleware": "^1.0.5"
+  }
+}
